@@ -13,8 +13,10 @@ Hierarchical clustering of aspect phrases with scipy
 
 ## Usage
 `python scipy_clustering.py <input file> <distance measure> <cluster linkage> <number of clusters>`
+
 Example:
 `python scipy_clustering.py vectorexample.txt euclid single 5`
+
 See code for the possible values.
 
 ## Licence and Warranty
