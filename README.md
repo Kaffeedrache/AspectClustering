@@ -1,5 +1,5 @@
 # AspectClustering
-Hierarchical clustering of aspect phrases with scipy
+Hierarchical clustering of aspect phrases with SciPy.
 
 ## Files
 - `scipy_clustering.py` - the main programm that does the clustering
@@ -14,8 +14,9 @@ Hierarchical clustering of aspect phrases with scipy
 ## Usage
 `python scipy_clustering.py <input file> <distance measure> <cluster linkage> <number of clusters>`
 
-Example:
-`python scipy_clustering.py vectorexample.txt euclid single 5`
+Examples:
+`python scipy_clustering.py vectorexample.txt levenshtein single 5`
+`python scipy_clustering.py vectorexample.txt euclidean ward 10`
 
 See code for the possible values.
 
