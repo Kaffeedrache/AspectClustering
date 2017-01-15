@@ -2,7 +2,7 @@
 Hierarchical clustering of aspect phrases with SciPy.
 
 ## Files
-- `scipy_clustering.py` - the main programm that does the clustering
+- `scripty_clustering.py` - the main programm that does the clustering
 - `distancemeasures.py` - some distance measures between aspect phrases to chose from
 - `vectorexample.txt` - an example file to play around, containing phrases and vectors (from word2vec)
 
